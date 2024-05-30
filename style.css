@@ -384,9 +384,6 @@ footer p{
     color:#fff;
   }
 
-  .textos>h1{font-size: 46px;}
-  .textos>h2{font-size:35px;}
-
   .content-card{
     width: 48%;
     margin-bottom:var(--margenes);
@@ -422,4 +419,10 @@ footer p{
   .iconos{
     margin: auto;
   }
+}
+.container {
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  margin-top: 10px;
 }
